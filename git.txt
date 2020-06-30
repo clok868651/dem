@@ -1,0 +1,17 @@
+git config --global 参数：设置本机上的所有Git仓库都会使用此配置，例：git config --global user.name "xxxx"
+mkdir xxx:创建版本库
+pwd:显示当前的目录
+git init:把当前目录变成git可以管理的仓库
+git add xxx.xxx:把文件添加到暂存区
+git commit:把文件提交到仓库
+git commit -m "注释":带注释提交
+git status:查看是否有文件未提交
+git diff xxx.xxx:查看文件修改了什么内容
+git log:历史提交记录
+git log –pretty=oneline:历史提交记录中的注释
+git reset --hard HEAD^:把当前的版本回退到上一个版本(^代表要退回到版本数，简便命令为git reset --hard HEAD~100)
+cat xxx.xxx:查看文件内容
+git reset --hard 版本号:通过版本号回退
+git reflog:获取版本号
+git checkout -- xxx.xxx:把文件在工作区做的修改全部撤销（撤销修改，撤销删除）(1.readme.txt自动修改后，还没有放到暂存区，使用撤销修改就回到和版本库一模一样的状态。2.另外一种是readme.txt已经放入暂存区了，接着又作了修改，撤销修改就回到添加暂存区后的状态。)
+rm xxx.xxx:删除文件
