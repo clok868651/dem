@@ -1,4 +1,4 @@
-git config --global 参数：设置本机上的所有Git仓库都会使用此配置，例：git config --global user.name "xxxx"
+git config --global user.xxx "xxx"：设置本机上的所有Git仓库都会使用此配置，例：git config --global user.name "xxxx"
 mkdir xxx:创建版本库
 pwd:显示当前的目录
 git init:把当前目录变成git可以管理的仓库
